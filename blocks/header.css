@@ -1,0 +1,42 @@
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__logo {
+  max-width: 270px;
+  max-height: 70px;
+  margin: auto;
+  padding-top: 34px;
+}
+
+.header__title {
+  max-width: 793px;
+  max-height: 200px;
+  margin: 90px auto 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 5.3rem;
+  line-height: 1.2;
+}
+
+.header__subtitle {
+  max-width: 720px;
+  margin: 32px auto 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.header__image {
+  margin: 64px auto 0;
+}
+
+@media only screen and (max-width: 984px) {
+  .header__image {
+    width: 100%;
+  }
+}
