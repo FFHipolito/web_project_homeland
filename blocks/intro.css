@@ -12,14 +12,15 @@
 }
 
 .intro__text-phrase {
-  margin-top: 75px;
+  width: 736px;
+  margin: 75px 396px 0 0;
   font-size: 1.5rem;
   line-height: 1.2;
 }
 
 .intro__text-author {
   width: 720px;
-  margin-top: 9px;
+  margin: 9px 412px 0 0;
   font-size: 1.5rem;
   line-height: 1.2;
   text-align: right;
@@ -28,7 +29,7 @@
 .intro__text-description {
   width: 720px;
   height: 182px;
-  margin-top: 32px;
+  margin: 32px 0 0;
   font-size: 1rem;
   line-height: 1.2;
 }
@@ -41,26 +42,35 @@
   .intro__title {
     width: 707px;
     height: 174px;
-    margin-right: 37px;
-    line-height: 1;
+    margin: 88px 37px 0 24px;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 1.2;
   }
 
   .intro__text-phrase {
     width: 707px;
     height: 102px;
-    margin: 58px 37px 0 0;
+    margin: 58px 37px 0 24px;
+    font-size: 1.5rem;
+    line-height: 1.2;
   }
 
   .intro__text-author {
+    width: 720px;
     height: 34px;
-    margin: 26px 0 0;
+    height: 34px;
+    margin: 26px auto 0;
+    font-size: 1.5rem;
+    line-height: 1.2;
   }
 
   .intro__text-description {
     width: 720px;
     height: 182px;
-    margin: 32px 0 0;
-    line-height: 26.08px;
+    margin: 32px auto 0;
+    font-size: 1rem;
+    line-height: 1.2;
   }
 }
 
