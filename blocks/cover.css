@@ -16,13 +16,14 @@
     url(../images/background-image.png);
 }
 
-.container {
+.cover__container {
   width: 656px;
   height: 254px;
   margin: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .cover__title {
@@ -42,14 +43,11 @@
   line-height: 22px;
 }
 
-.cover__link {
-  margin: auto;
-}
-
 .cover__frame {
   color: white;
   text-decoration: none;
   border: none;
+  outline: none;
   border-radius: 4px;
   background-color: #0278fe;
   padding: 13px 20px;
@@ -73,7 +71,7 @@
     height: 254px;
     margin: 64px 0;
   }
-  .container {
+  .cover__container {
     width: 288px;
     height: 163px;
   }
@@ -88,7 +86,5 @@
     line-height: 16px;
   }
   .cover__frame {
-    width: 191px;
-    height: 48px;
   }
 }
