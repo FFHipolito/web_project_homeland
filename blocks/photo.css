@@ -1,4 +1,4 @@
-.photo__grid {
+.photo {
   max-width: 1184px;
   height: 442px;
   margin: 92px auto 0;
@@ -7,34 +7,34 @@
   gap: 16px 16px;
 }
 
-.photo__grid-item {
+.photo__grid {
   width: 100%;
   margin: auto;
 }
 
 @media only screen and (max-width: 985px) {
-  .photo__grid {
+  .photo {
     height: 1104px;
     margin: 64px 24px 0;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px 10px;
   }
 
-  .photo__grid-item {
+  .photo__grid {
     height: 264px;
     object-fit: cover;
   }
 }
 
 @media only screen and (max-width: 630px) {
-  .photo__grid {
+  .photo {
     height: 1812px;
     margin: 38px 16px 62px;
     grid-template-columns: 1fr;
     gap: 5px;
   }
 
-  .photo__grid-item {
+  .photo__grid {
     height: 216px;
   }
 }
