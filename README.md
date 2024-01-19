@@ -1,6 +1,6 @@
 # Tripleten web_project_homeland
 
-A página do Tripleten web_project_homeland é um projeto no programa de desenvolvedor de software na TripleTen. Ele é criado usando HTML e CSS (avançados), com base em um design disponibilizado no Figma e estará disponível no GitHub.
+A página do Tripleten web_project_homeland é um projeto no programa de desenvolvedor de software na TripleTen. Ele é criado usando HTML e CSS (avançados), com base em um design disponibilizado no Figma e estará disponível no GitHub e GitHub Pages.
 
 ## Características do projeto
 
@@ -14,3 +14,7 @@ Git e GitHub
 
 JavaScript
 Implementação de um Back-End para captação de dados dos clientes através dos botões de compras.
+
+### Link para visualização no GitHub Pages
+
+https://ffhipolito.github.io/web_project_homeland/
