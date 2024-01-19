@@ -1,0 +1,15 @@
+.footer__paragraph {
+  width: 220px;
+  margin: auto;
+  padding-bottom: 24px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media only screen and (max-width: 630px) {
+  .footer__paragraph {
+    line-height: 14px;
+  }
+}

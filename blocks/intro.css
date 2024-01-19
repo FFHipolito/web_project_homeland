@@ -63,7 +63,7 @@
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 630px) {
   .intro__title {
     margin: 44px 16px 0;
     font-size: 32px;

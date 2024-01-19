@@ -26,10 +26,10 @@
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 630px) {
   .photo__grid {
     height: 1812px;
-    margin: 38px 16px 0;
+    margin: 38px 16px 62px;
     grid-template-columns: 1fr;
     gap: 5px;
   }
